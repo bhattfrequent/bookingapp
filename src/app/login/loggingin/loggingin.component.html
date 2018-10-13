@@ -1,0 +1,10 @@
+
+  <h1 class="bg-primary">loggingin works {{reaction}}</h1>
+  <div class="mydiv container">
+    <div class="row bg-primary">
+      <label class="column">User Name</label>
+      <input class="column" [value]="username" (input)="onKey($event)"/>
+      <button class="colulmn" (click)="doLogin()"></button>
+    </div>
+  </div>
+

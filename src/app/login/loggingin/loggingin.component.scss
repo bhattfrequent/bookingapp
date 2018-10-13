@@ -1,0 +1,17 @@
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.css';
+$mycolor: Red;
+h1{
+  font-size: (10px + 30px)*2 !important;
+  color: lighten($mycolor,20%)
+
+}
+
+.mydiv{
+  background-color: green;
+  height: 100px;
+  width: 100%;
+  .myrow{
+    height: 100px;
+    width: 100%
+  }
+}
