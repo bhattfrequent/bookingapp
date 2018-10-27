@@ -1,0 +1,16 @@
+<div class="container-fluid header h-100">
+  <div class="row">
+      <label class="col-md-2 offset-md-5">Email or Phone</label>
+      <label class="col-md-2">Password</label>
+  </div>
+
+  <div class="row">
+      <input [(ngModel)]="User.Name" class="col-md-2 offset-md-5">
+      <input type="password" [(ngModel)]="User.Password" class="col-md-2">
+      <!-- <input type="file" class="col-md-2" (change)="onFileChange($event)"> -->
+      <div class="col-md-1">
+        <button class="btn btn-sm" (keyup.enter)='onLoginClick()' (click)='onLoginClick()'>Log In</button>
+      </div>
+      <input type="button" class="col-md-1" value="Sign-Up" [routerLink]="['/signup']" routerLinkActive="router-link-active" >
+  </div>
+</div>

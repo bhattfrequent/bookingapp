@@ -1,0 +1,11 @@
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.css';
+$lowerpanelColor : Cyan;
+
+.lower-panel{
+  background: $lowerpanelColor
+}
+
+.profile-panel{
+  height: 300px;
+  width: 200px;
+}
